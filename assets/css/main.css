@@ -101,7 +101,7 @@ input, select, textarea {
 
 	body {
 		background-color: #2e3141;
-		background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/bg.jpg");
+		background-image: linear-gradient(to top, rgba(169, 171, 184, 0.8), rgba(65, 66, 75, 0.8)), url("../../images/bg.jpg");
 		background-size: auto,
  cover;
 		background-attachment: fixed,
@@ -3413,10 +3413,10 @@ input, select, textarea {
 			}
 
 		#banner h2 {
-			-moz-transition: opacity 0.5s ease, -moz-transform 0.5s ease, -moz-filter 0.25s ease;
-			-webkit-transition: opacity 0.5s ease, -webkit-transform 0.5s ease, -webkit-filter 0.25s ease;
-			-ms-transition: opacity 0.5s ease, -ms-transform 0.5s ease, -ms-filter 0.25s ease;
-			transition: opacity 0.5s ease, transform 0.5s ease, filter 0.25s ease;
+			-moz-transition: opacity 0.5s ease, -moz-transform .5s ease, -moz-filter 0.25s ease;
+			-webkit-transition: opacity 0.5s ease, -webkit-transform .5s ease, -webkit-filter 0.25s ease;
+			-ms-transition: opacity 0.5s ease, -ms-transform .5s ease, -ms-filter 0.25s ease;
+			transition: opacity 3s ease, transform 2s ease, filter .5s ease;
 			-moz-transform: translateX(0);
 			-webkit-transform: translateX(0);
 			-ms-transform: translateX(0);
@@ -3424,7 +3424,7 @@ input, select, textarea {
 			-moz-transition-delay: 0.65s;
 			-webkit-transition-delay: 0.65s;
 			-ms-transition-delay: 0.65s;
-			transition-delay: 0.65s;
+			transition-delay: 2s;
 			-moz-filter: blur(0);
 			-webkit-filter: blur(0);
 			-ms-filter: blur(0);
@@ -3440,7 +3440,7 @@ input, select, textarea {
 			-moz-transition: opacity 0.5s ease, -moz-transform 0.5s ease, -moz-filter 0.25s ease;
 			-webkit-transition: opacity 0.5s ease, -webkit-transform 0.5s ease, -webkit-filter 0.25s ease;
 			-ms-transition: opacity 0.5s ease, -ms-transform 0.5s ease, -ms-filter 0.25s ease;
-			transition: opacity 0.5s ease, transform 0.5s ease, filter 0.25s ease;
+			transition: opacity 1s ease, transform 1.5s ease, filter 1s ease;
 			-moz-transform: translateX(0);
 			-webkit-transform: translateX(0);
 			-ms-transform: translateX(0);
@@ -3448,7 +3448,7 @@ input, select, textarea {
 			-moz-transition-delay: 0.8s;
 			-webkit-transition-delay: 0.8s;
 			-ms-transition-delay: 0.8s;
-			transition-delay: 0.8s;
+			transition-delay: 4.5s;
 			-moz-filter: blur(0);
 			-webkit-filter: blur(0);
 			-ms-filter: blur(0);
